@@ -1110,7 +1110,7 @@ val HeuristicsMap = mapOf<String, (String) -> ExtractorInterface?>(
         CommonExtractor(Lang.GLSL)
     },
     "vue" to { _ ->
-        CommonExtractor(Lang.JAVASCRIPT)
+        JavascriptExtractor()
     },
     "vw" to { _ ->
         CommonExtractor(Lang.PLSQL)
